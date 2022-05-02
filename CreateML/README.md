@@ -2,22 +2,33 @@
 
 [Back to home directory](https://github.com/valentinsilvera/ai-basics)
 
+## How to run locally
+
+1. Download or clone the repo
+2. Open ai-basics/CreateML/SnacksVision/SnacksVision.xcodeproj on Xcode
+3. Go to "Signing and Capabilities"
+4. Change "Team" to your own Apple Developer Account (required)
+5. Select a device to run (on the top, this project requires a physical device)
+6. Run the project (Cmd+R)
+
 ## About CreateML
-Artificial Intelligence (AI) allows computer systems to think/act rationally/like a human. This includes planning future actions, optimizing results, reasoning, and learning from known or unknown data. This is the documentation of my first dip in the ever-expanding world of AI. I love food (I know, so original), so I decided to make a simple Image Classifier that works well on iOS devices to recognize and properly label different types of food.
+Create ML is a framework from Apple for ML. It allows the creation and training of machine learning models. The trained models can be easily integrated into own apps with Core ML. The models can be used, for example, for image, text or speech recognition.
 
 ### Technologies
 
-- Vision
+- Vision: The Vision framework performs face and face landmark detection, text detection, barcode recognition, image registration, and general feature tracking. Vision also allows the use of custom Core ML models for tasks like classification or object detection. Vision comes already integrated in iOS 11+ so the models created using VisionFeaturePrint_Scene are only a few KB in size, as they only include the logistic regressions done on top of the parent model.
 
 ## The Model
 
-To make this project possible, I had to find a way to train a model that's small enough to work on a mobile application.
-These are the three models I made. From the simplest to most complex (to train). Click on each one to see instructions and some of the key takeaways:
+CreateML is extremely easy to use. Here's how I trained the model:
 
-- <a href="https://github.com/valentinsilvera/ai-basics/tree/main/CreateML"><strong>Machine Learning with CreateML »</strong></a>
-- <a href="https://github.com/valentinsilvera/ai-basics/tree/main/TuriCreate"><strong>Machine Learning in Python with Turi Create »</strong></a>
-- <a href="https://github.com/valentinsilvera/ai-basics/tree/main/Keras"><strong>Machine Learning in Python with Keras »</strong></a>
+![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml3.png)
+First, I loaded the dataset (~5000 images for training, ~1000 for validation and ~1000 for testing), each in directories named after the class they belong (ie: Apple, Oranges, Pretzels). I selected 25 iterations (or epochs), and augmentation. Augmentation allows to make a bigger dataset than the one we have by modifying the images. I selected Crop and Rotate, which applies these filters to copies of the original images.
 
-## Training
+![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml1.png)
+![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml2.png)
+The model took a few minutes to train and it came out with: Training accuracy 96,6%. Validation accuracy 89%. Size: 446 KB
 
 [Back to home directory](https://github.com/valentinsilvera/ai-basics)
+
+[Next: Turi Create](https://github.com/valentinsilvera/ai-basics/tree/main/TuriCreate)
