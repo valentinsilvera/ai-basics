@@ -20,6 +20,9 @@ Create ML is a framework from Apple for ML. It allows the creation and training 
 
 ## The Model
 
+CreateML(with Vision Feature Print) extracts around 2000 freatures per image.
+![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/ml2.jpeg)
+
 CreateML is extremely easy to use. Here's how I trained the model:
 
 ![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml3.png)
@@ -28,6 +31,7 @@ First, I loaded the dataset (~5000 images for training, ~1000 for validation and
 ![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml1.png)
 ![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/createml2.png)
 The model took a few minutes to train and it came out with: Training accuracy 96,6%. Validation accuracy 89%. Size: 446 KB
+It's important to note that this is a process called transfer learning. Vision has already several models trained with hundreds of GBs of data, and then does transfer learning on top of that. This is the most realistic scenario, as we will see, training without a huge dataset is not feasible.
 
 [Back to home directory](https://github.com/valentinsilvera/ai-basics)
 
