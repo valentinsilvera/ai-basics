@@ -1,11 +1,11 @@
 # Artificial Intelligence Basics SS22
 
-# Introduction
+## Introduction
 
-## About
+### About
 Artificial Intelligence (AI) allows computer systems to think/act rationally/like a human. This includes planning future actions, optimizing results, reasoning, and learning from known or unknown data. This is the documentation of my first dip in the ever-expanding world of AI. I love food (I know, so original), so I decided to make a simple Image Classifier that works well on iOS devices to recognize and properly label different types of food.
 
-## Machine Learning
+### Machine Learning
 
 Machine Learning is the field of AI that applies statistical tools to data, to find correlations. One of the most popular (and oldest) ML models is logistic regression. So I started with that one. I also delved into convolutional neural networks. If we think of logistic regression as a line (actually one or more hyperplanes) in an n-dimensional space, CNN curves and distorts this line further to separate the points in this space better (at the risk of overfitting). CNN models are more opaque than LR due to layer(s) of hidden neurons and are more at risk of overfitting.
 
