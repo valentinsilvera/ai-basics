@@ -9,6 +9,10 @@ Artificial Intelligence (AI) allows computer systems to think/act rationally/lik
 
 Machine Learning is the field of AI that applies statistical tools to data, to find correlations. One of the most popular (and oldest) ML models is logistic regression. So I started with that one. I also delved into convolutional neural networks. If we think of logistic regression as a line (actually one or more hyperplanes) in an n-dimensional space, CNN curves and distorts this line further to separate the points in this space better (at the risk of overfitting). CNN models are more opaque than LR due to layer(s) of hidden neurons and are more at risk of overfitting.
 
+<p align="center">
+<img src="https://github.com/valentinsilvera/ai-basics/blob/main/Assets/ml1.jpeg" alt="ML diagram" width="300"/>
+</p>
+
 ## Projects
 
 To make this project possible, I had to find a way to train a model that's small enough to work on a mobile application.
