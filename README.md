@@ -25,3 +25,7 @@ These are the three models I made. From the simplest to most complex (to train).
 4. [Keras Documentation](https://keras.io/why_keras/)
 5. [CS50: Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai)
 6. All the images used to train the models are from [Google Open Images](https://storage.googleapis.com/openimages/web/index.html)
+
+## Contact
+
+[Valentin Silvera](mailto:valentin.silvera@code.berlin?subject=[GitHub]%20AI%20Basics)
