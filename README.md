@@ -27,8 +27,8 @@ App Demo                   |  App Demo                 |  App Demo
 
 
 ## Bibliography and Learning Resources
-1. [Google Classroom: AI Guild - Asynchronous Learning](https://classroom.google.com/u/0/c/MTIxNDc0NDk4NDY4)
-2. [Google Classroom: SE_14 - Artificial Intelligence Basics](https://classroom.google.com/u/0/c/MzA1Mzk0ODY0MTI3)
+1. [Google Classroom: AI Guild](https://classroom.google.com/u/0/c/MTIxNDc0NDk4NDY4)
+2. [Google Classroom: SE_14 - AI Basics](https://classroom.google.com/u/0/c/MzA1Mzk0ODY0MTI3)
 3. [Apple's CoreML Documentation](https://developer.apple.com/documentation/createml/creating_an_image_classifier_model/)
 4. [Keras Documentation](https://keras.io/why_keras/)
 5. [CS50: Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai)
