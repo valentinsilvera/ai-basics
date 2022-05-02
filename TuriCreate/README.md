@@ -1,4 +1,4 @@
-# ML with CreateML
+# ML with TuriCreate
 
 [Back to home directory](https://github.com/valentinsilvera/ai-basics)
 
