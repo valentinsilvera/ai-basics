@@ -18,6 +18,14 @@ These are the three models I made. From the simplest to most complex (to train).
 - <a href="https://github.com/valentinsilvera/ai-basics/tree/main/TuriCreate"><strong>Machine Learning in Python with Turi Create »</strong></a>
 - <a href="https://github.com/valentinsilvera/ai-basics/tree/main/Keras"><strong>Machine Learning in Python with Keras »</strong></a>
 
+## Demo
+
+App Demo                   |  App Demo                 |  App Demo
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/app1.PNG?raw=true)   |  ![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/app2.PNG?raw=true)|  ![](https://github.com/valentinsilvera/ai-basics/blob/main/Assets/app3.jpeg?raw=true)
+
+
+
 ## Bibliography and Learning Resources
 1. [Google Classroom: AI Guild - Asynchronous Learning](https://classroom.google.com/u/0/c/MTIxNDc0NDk4NDY4)
 2. [Google Classroom: SE_14 - Artificial Intelligence Basics](https://classroom.google.com/u/0/c/MzA1Mzk0ODY0MTI3)
