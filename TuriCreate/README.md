@@ -20,4 +20,4 @@ All the process of creating the model is in the [Jupyter Notebook](https://githu
 
 [Back to home directory](https://github.com/valentinsilvera/ai-basics)
 
-[Next: Keras](https://github.com/valentinsilvera/ai-basics/tree/main/TuriCreate)
+[Next: Keras](https://github.com/valentinsilvera/ai-basics/tree/main/Keras)
